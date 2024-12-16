@@ -1,0 +1,354 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background:  radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0,0,0,0.8)
+    );
+}
+
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+
+.box01{ height: 148px; text-align: center;padding-top: 158px;}
+.box02{
+    height: 192px;
+    padding-top: 130px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+
+.box03{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* 서브페이지 시작 */
+.font01{font-family: 'Cafe24Ohsquare'; font-size: 32px; color: black; line-height: 40px;}
+.font02{font-family: 'Cafe24Ohsquare'; font-size: 70px; color: black; }
+.font03{font-family: 'Cafe24Ohsquare'; font-size: 40px; color: white;}
+.font04{font-family: "Noto Sans KR", sans-serif; font-size: 14px;color: white; line-height: 25px;}
+.font05{font-family: "Noto Sans KR", sans-serif; font-size: 16px;color: black;}
+.font06{font-family: "Noto Sans KR", sans-serif; font-size: 11px;color: white; line-height: 30px;}
+
+.wrap01{
+    width: 100%; 
+    height: 932px;
+    background-image: url(img/bg01.png);}
+.logo01{
+    text-align: center;
+    margin: 0 auto;
+    width: 261px; 
+    height: 122px; 
+    padding-top: 84px;
+    background-repeat: no-repeat;
+}
+
+.bg02{
+    width: 100%; height: 576px; background-color: yellow;
+    text-align: center; background-repeat: no-repeat;
+}
+.bg02_i01{width: 424px; height: 282px;
+text-align: center;
+padding-top: 67px;
+margin: 0 auto;}
+
+.bg02_t01{
+    text-align: center; padding-top: 66px;
+
+}
+
+.bg03{
+    width: 100%;
+    height: 932px;
+    background-image: url(img/sbg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.bg03_t01{
+    text-align: center; padding-top: 74px;
+}
+
+.bg03_i01{
+    width: 224px;
+    height: 122px;
+    text-align: center;
+    padding-top: 76px;
+    margin: 0 auto;
+}
+
+.bg03_t02{
+    width: 355px;
+    height: 249px;
+    text-align: center;
+    padding-top: 47px;
+    margin: 0 auto;
+}
+
+.bg03_i02{
+   padding-top: 12px;
+   text-align: center;
+   margin: 0 auto;
+   
+}
+
+.bg04{
+    background-image: url(img/wbg.png);
+    width: 100%;
+    height: 734px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.bg04_i01{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+
+.bg04_t01{
+    text-align: center;
+    padding-top: 25px;
+    margin: 0 auto;
+
+}
+
+.bg04_i02{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 31PX;
+}
+
+.bg05{
+    width: 100%;
+    height: 857px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(img/cbg.png);
+
+}
+
+.bg05_t01{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+.bg05_t02{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.bg05_t03{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.bg05_i01{ 
+    position: relative;
+    width: 334px;
+    height: 307px;
+}
+
+.img01{
+    position: absolute;
+    padding-top: 71px;
+    right: -71px;    
+    z-index: 0 ;
+}
+
+.img02{
+    position: absolute;
+    padding-top: 54px;
+    left: 0px;
+    z-index: 1;
+    display: flex;
+    top: 18.5px;
+    
+} 
+
+
+.bg06{width: 100%;
+    height: 691px;
+    background-image: url(img/rbg.png);
+    
+
+}
+
+.bg06_t01{
+    padding-top: 54px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg06_t02{
+    padding-top: 46px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg06_i01{ 
+    position: relative; 
+    width: 383px;
+    height: 339px;
+    display: flex;
+}
+
+.img03{
+    position: absolute;
+    top:-5px;
+    left: 182px;
+    z-index: 1;
+}
+
+.img04{
+    position: absolute ;
+    padding-top: 54px;
+    padding-left: 24px;
+    z-index: 0;
+} 
+
+.bg07{width: 100%;
+    height: 691px;
+    background-image: url(img/pbg.png);
+    
+
+}
+
+.bg07_t01{
+    padding-top: 54px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg07_t02{
+    padding-top: 46px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg07_i01{ 
+    position: relative; 
+    width: 383px;
+    height: 339px;
+}
+
+.img05{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    z-index: 1;
+}
+
+.img06{
+    position: absolute ;
+    padding-top: 54px;
+    padding-left: 173px;
+    z-index: 0;
+} 
+
+.bg08{width: 100%;
+    height: 691px;
+    background-image: url(img/kbg.png);
+    
+
+}
+.bg08_t01{
+    padding-top: 54px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg08_t02{
+    padding-top: 46px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg08_i01{ 
+    position: relative; 
+    width: 383px;
+    height: 339px;
+}
+
+.img07{
+    top: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 157px;
+    z-index: 0;
+}
+
+.img08{
+    position: absolute ;
+    padding-top: 109px;
+    padding-left: 24px;
+    z-index: 1;
+} 
+
+.bg09{
+    padding-top: 30px;
+    padding-left: 24px;
+    position: absolute;
+    width: 100%;
+    height: 324px;
+    background-color: gray;
+}
+
+.bg09_t01{
+    padding-top: 10px;
+    width: 100%;
+    height: 51px;
+    padding-left: 5px;
+
+}
+
+.bg09_t02{
+    padding-top: 32px;
+    width: 100%;
+    height: 91px;
+    padding-left: 5px;
+}
